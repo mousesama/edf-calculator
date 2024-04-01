@@ -11,7 +11,7 @@ COPY edf-calculator/package.json edf-calculator/package-lock.json ./
 RUN npm install
 
 # Copy the rest of the source code
-COPY ./edf-calculator/* .
+COPY ./edf-calculator/ .
 
 # Build the app
 RUN npm run build
