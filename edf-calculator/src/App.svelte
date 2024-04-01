@@ -8,6 +8,7 @@
 
 <main class="bg-gray-900 text-white min-h-screen p-8">
   <h1 class="text-4x1 mb-6 text-center">EDF DPS Calculator</h1>
+  Work in progress uwu
 
   <div class="card">
     <ClassTabSelector />
